@@ -7,8 +7,6 @@
 #ifndef M62429_H
 #define M62429_H
 
-#include "Arduino.h"
-
 class M62429 {
 public:
   M62429(uint8_t pin_data, uint8_t pin_clk);

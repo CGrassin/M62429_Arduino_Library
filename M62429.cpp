@@ -7,7 +7,7 @@
 #include "Arduino.h"
 #include "M62429.h"
 
-M62429::M62429 (uint8_t pin_data, uint8_t pin_clk){
+M62429::M62429 (uint8_t pin_clk, uint8_t pin_data){
 	_pin_data = pin_data;
 	_pin_clk = pin_clk;
 }

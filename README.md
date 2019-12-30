@@ -1,4 +1,4 @@
-# M62429_Arduino_Library
+# M62429 Arduino Library
 
 A simple and very light Arduino library for the FM62429 or M62429P/FP serial data control dual electronics volume chip.
 
