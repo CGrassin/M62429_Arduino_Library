@@ -9,7 +9,7 @@
 
 class M62429 {
 public:
-  M62429(uint8_t pin_data, uint8_t pin_clk);
+  M62429 (uint8_t pin_clk, uint8_t pin_data);
   void setVolumeBoth(uint8_t attenuation);
   void setVolumeCh1 (uint8_t attenuation);
   void setVolumeCh2 (uint8_t attenuation);
