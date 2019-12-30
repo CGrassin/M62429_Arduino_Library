@@ -17,11 +17,15 @@ void loop (void)
 {
 	for(int i=0;i<=83;i++) {
 		chip.setVolumeBoth(i);
+		//chip.setVolumeCh1(i);
+		//chip.setVolumeCh2(i);
 		delay(10);
 	}
 
 	for(int i=83;i>=0;i--) {
 		chip.setVolumeBoth(i);
+		//chip.setVolumeCh1(i);
+		//chip.setVolumeCh2(i);
 		delay(10);
 	}
 
