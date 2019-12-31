@@ -24,8 +24,10 @@ void M62429::_setVolume(uint8_t attenuation, uint8_t channel, uint8_t both){
   uint16_t data_word = 0x00;
 
   // Sanity checks on parameters
-  if(both>1 || channel>1 || attenuation > 83)
+  if(both>1 || channel>1)
   	return;
+  if(attenuation > 83)
+    attenuation = 83;
 
   // Convert volume to attenuation
   //uint8_t attenuation = (volume > 100) ? 0 : (((volume * 83) / -100) + 83);
