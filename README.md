@@ -4,6 +4,8 @@ A simple and very light Arduino library for the FM62429 or M62429P/FP serial dat
 
 To install it, download the content of the repository in ZIP, open the Arduino IDE, open "Sketch" > "Include Library" > "Add .ZIP Library" and select the ZIP file.
 
+**This library is now included in the Arduino Library Manager.** You can install it directly in the Arduino IDE by opening the Library Manager and searching for "M62429".
+
 To get started, open the "VolumeSweep" example, included in this library.
 
 ## Detailed functions
